@@ -13,6 +13,24 @@ header .logo, footer .logo {
     font-family: 'Orbitron', sans-serif;
     font-size: xx-large;
 }
+header .flex {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(99, 170, 233);
+    border-radius: 45px;
+}
+
+nav .book-now {
+    background-color: #1E40AF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav .book-now:hover {
+    background-color: #2563EB; 
+}
 
 /* Hero Section */
 .hero h1 {
